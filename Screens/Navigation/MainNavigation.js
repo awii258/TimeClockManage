@@ -15,7 +15,7 @@ const MainNavigation = () => {
   return (
     <NavigationContainer>
     <Stack.Navigator>
-        <Stack.Screen
+        {/* <Stack.Screen
         name="MainScreen"
         component={MainScreen}
         options={{headerShown:false}}
@@ -36,7 +36,7 @@ const MainNavigation = () => {
         component={LoginPin}
         options={{headerShown:false}}
         
-        />
+        /> */}
         <Stack.Screen
         
         name="Tabs"

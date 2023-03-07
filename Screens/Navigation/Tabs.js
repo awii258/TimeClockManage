@@ -41,6 +41,7 @@ const Tabs = () => {
             name="Home"
             component={HomeScreen}
             options={{
+              headerShown:false,
               tabBarLabel: "Home",
               tabBarShowLabel: false,
               headerTintColor: "#927E5A",
