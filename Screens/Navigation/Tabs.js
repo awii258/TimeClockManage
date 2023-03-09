@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View,Image } from 'react-native'
 import React from 'react'
-import CalenderScreen from "../TabsScreen.js/CalenderScreen";
-import HomeScreen from "../TabsScreen.js/HomeScreen";
-import SettingScreen from "../TabsScreen.js/SettingScreen";
-import ShiftScreen from "../TabsScreen.js/ShiftScreen";
-import TimeSheets from "../TabsScreen.js/TimeSheets";
+import CalenderScreen from "../TabsScreen/CalenderScreen";
+import HomeScreen from "../TabsScreen/HomeScreen";
+import SettingScreen from "../TabsScreen/SettingScreen";
+import ShiftScreen from "../TabsScreen/ShiftScreen";
+import TimeSheets from "../TabsScreen/TimeSheets";
+import HomeScreen2 from '../TabsScreen/HomeScreenSecond'
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 
@@ -39,7 +40,7 @@ const Tabs = () => {
         >
           <Tab.Screen
             name="Home"
-            component={HomeScreen}
+            component={HomeScreen2}
             options={{
               headerShown:false,
               tabBarLabel: "Home",
