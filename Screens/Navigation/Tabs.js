@@ -267,22 +267,22 @@ const Tabs = () => {
             options={{
               tabBarShowLabel: false,
             
-              headerShown: false,
+              // headerShown: false,
             //   title: <Images />,
-              headerTintColor: "#927E5A",
+              // headerTintColor: "#FFFFFF",
               headerTitleAlign: "center",
               headerTitleStyle: {
-                color: "#927E5A",
-                fontFamily: "BaskervilleRegular",
-                textTransform: "uppercase",
-                fontSize: 24,
+                color: "#FFFFFF",
+                fontFamily: "Poppins",
+               
+                fontSize: 20,
               },
               headerStyle: {
-                backgroundColor: "#080402",
-                borderBottomColor: "#927E5A",
-                borderBottomWidth: 1,
-                borderTopWidth: 1,
-                borderTopColor: "#927E5A",
+                backgroundColor: "rgba(91, 54, 212, 1)",
+                
+               
+                
+               
                 // justifyContent:"flex-end"
               },
     
